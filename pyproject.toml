@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "recipe-scraper"
+version = "0.1.0"
+description = "scraping recipes"
+authors = ["limonyellow <lemon@example.com>"]
+license = "MIT"
+homepage = "https://github.com/limonyellow/recipe-scraper"
+repository = "https://github.com/limonyellow/recipe-scraper"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Scrapy = "^2.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
