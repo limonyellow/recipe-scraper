@@ -10,6 +10,7 @@ repository = "https://github.com/limonyellow/recipe-scraper"
 [tool.poetry.dependencies]
 python = "^3.8"
 Scrapy = "^2.6.1"
+pymongo = {extras = ["srv"], version = "^4.0.2"}
 
 [tool.poetry.dev-dependencies]
 
